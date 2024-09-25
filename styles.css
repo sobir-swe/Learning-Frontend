@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: green;
+}
+
+chapters{
+    text-align: center;
+    font-family: "Abyssinica SIL", cursive;
+    color: red;
+}
+
+#pool {
+    color: aqua;
+}
