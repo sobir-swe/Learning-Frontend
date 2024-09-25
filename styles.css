@@ -9,10 +9,8 @@ h2{
     color: green;
 }
 
-chapters{
-    text-align: center;
-    font-family: "Abyssinica SIL", cursive;
-    color: red;
+.chapters{
+    color: #f80000;
 }
 
 #pool {
