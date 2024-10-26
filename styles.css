@@ -1,18 +1,49 @@
 h1{
+    color: blue;  /*Usual way*/
+    background-color: rgba(10, 10, 10, 0.5);
     text-align: center;
-    color: blue;
 }
 
 h2{
-    font-family: sans-serif;
-    text-align: center;
-    color: green;
+    color: green;  /*Usual way*/
+    text-decoration: underline;
+    font-size: 100px;
 }
 
 .chapters{
-    color: #f80000;
+    color: #f80000; /*HEX*/
+    font-style: italic;
 }
 
 #pool {
-    color: aqua;
+    color: rgb(0,255,255); /*RGB*/
+    font-weight: bold;
 }
+
+/*
+    1. color:
+        #1. Usual way
+        #2. HEX
+        #3. RGB
+    2. Background-color (Orqa tomondagi rang)
+
+    3. Text-align -> default(left) (text joylashuvi)
+        #1. center
+        #2. right
+
+    4. Font-weight: (Yozuvimizni hajmini uchun)
+        #1. bold, normal, lighter
+        #2. 100-900
+
+    5. FOnt-style: (shriftni style)
+        #1. italic
+        #2. normal
+
+    6. Text-decoration:
+        #1. underline
+        #2. line-through
+
+    7. Font-size
+        #1. 1-1000 px
+        #2. s-xx large
+ */
